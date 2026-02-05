@@ -30,5 +30,27 @@ p2 =Student("hicahm" , 10)
 p2.show_inf()
 p2.is_passed()
 
+class Banck : 
+    def __init__(self, name , balnce):
+        self.sum = 0
+        self.name = name
+        self.balnce = balnce
+    def show(self) :
+        print("hey M.", self.name)
+        print("Bilance", self.balnce)
+    def desposit(self , anmout):
+        self.balnce+=anmout
+        print("Desposite" , anmout,"DH")
+    def nks(self , anmout) :
+        if anmout <= self.balnce :
+            self.balnce -= anmout
+            print("Withdraw:", anmout, "DH")
 
-   
+        else :
+            print("not enough money")
+
+
+acc = Banck("bilal" , 200)
+acc.desposit(122)   
+acc.nks(100)
+acc.show()
