@@ -145,6 +145,7 @@ class Etudaint:
 notes=[12 , 14 , 15 , 10 , 12 , 20, 12]
 s = Etudaint("A123", "Bilal", "Iken", "Rabat", notes, 1)
 
+
 s.afficher()
 print("Moyenne:", s.calcul_moyenne())
 print("Decision:", s.decision())
