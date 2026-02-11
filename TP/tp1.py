@@ -11,3 +11,6 @@ plt.xlabel("x")
 plt.ylabel("y")
 plt.title("Synthetic Data")
 plt.show()
+
+
+
