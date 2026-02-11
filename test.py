@@ -143,12 +143,22 @@ class Etudaint:
 
         
 notes=[12 , 14 , 15 , 10 , 12 , 20, 12]
+note2=[2 , 1 , 5 , 10 , 12 , 2, 12]
 s = Etudaint("A123", "Bilal", "Iken", "Rabat", notes, 1)
+s1 = Etudaint("A123", "NOH", "Iken", "Rabat", note2, 1)
 
 
 s.afficher()
+
 print("Moyenne:", s.calcul_moyenne())
 print("Decision:", s.decision())
+
+print("------------")
+
+
+s1.afficher()
+print("Moyenne:", s1.calcul_moyenne())
+print("Decision:", s1.decision())
         
 
         
