@@ -31,4 +31,6 @@ e1.afficher()
 e1.est_admis()
 
 e1.setNote(18)
+e1.setNote(22)
 print("Nouvelle note :", e1.getNote())
+e1.afficher()
